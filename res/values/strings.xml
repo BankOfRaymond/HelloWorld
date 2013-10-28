@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWorld</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Input System resource</string>
+    <string name="i_am_batman">I am Batman!</string>
+    <string name="edit_message">EDIT THIS STRING</string>
+    <string name="button_send">Send</string>
+
+    <array name="test_array">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </array>
+
+    <string name="title_activity_display_message">Whats up One Level Down</string>
+
+</resources>
