@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -50,7 +52,17 @@ public class DisplayMessageActivity extends Activity {
 		}
 	}
 
-	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main_activity_actions, menu);
+		return super.onCreateOptionsMenu(menu);
+		
+		//getMenuInflater().inflate(R.menu.main, menu);
+		//return true;
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {

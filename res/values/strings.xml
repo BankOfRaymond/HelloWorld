@@ -7,6 +7,7 @@
     <string name="i_am_batman">I am Batman!</string>
     <string name="edit_message">EDIT THIS STRING</string>
     <string name="button_send">Send</string>
+    <string name="action_search">SEARCH!</string>
 
     <array name="test_array">
         <item>3</item>
